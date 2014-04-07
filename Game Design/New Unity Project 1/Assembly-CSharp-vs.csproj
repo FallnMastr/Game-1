@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FC9411EB-1B12-4154-0219-EEA7CBD09863}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Invisible_wall.cs" />
+     <Compile Include="Assets\Levels\Cave Intro\Script\cave_intro_transition.cs" />
+     <Compile Include="Assets\Levels\Forest Intro\Script\forest_intro_transition.cs" />
+     <Compile Include="Assets\Levels\Fortress Intro\Script\fortress_intro_transition.cs" />
+     <Compile Include="Assets\Levels\Game Intro\Script\game_intro_transition.cs" />
+     <Compile Include="Assets\Levels\Game Outro\Script\outroTransfer.cs" />
+     <Compile Include="Assets\Levels\Home Screen\Script\game_intro_script.cs" />
+     <Compile Include="Assets\Levels\Plains Intro\Script\plains_intro_transition.cs" />
+     <Compile Include="Assets\Levels\Volcano Intro\Script\volcano_intro_transition.cs" />
+     <Compile Include="Assets\Prefabs\Player\Script\Player_Movement.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Bug Scripts\BugRandom1.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Bug Scripts\BugRandom2.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Bug Scripts\BugRandom3.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Bug Scripts\BugRandom4.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Bug Scripts\BugRandom5.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Bug Scripts\BugRandom6.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\BugBottomLeft.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\BugBottomRight.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\BugTopLeft.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\BugTopRight.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\Guard Scripts\Guard01.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\GuardBoxCC.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\GuardBoxCW.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\GuardHorizontal.cs" />
+     <Compile Include="Assets\Scripts\ai scripts\GuardVertical.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava0_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava11.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a11.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a11_r.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a12.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a13.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a14.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a15.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a16.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a17.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a18.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a19.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a20.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a21.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a22.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_a9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac3_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac3_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac3_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac3_2d.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac3_2r.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ac8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3_l0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3_l1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3_l2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3_l3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3_l4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad3_l5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad5_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad5_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_ad8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b11.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b12.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b13.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b14.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b15.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b15_u.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b15_u0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b16.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b17.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b18.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b19.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava12_b9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava13.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava14.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava15.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava16.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava17.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_5_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_5_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava18_9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava19.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava1_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava1_0b.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava1_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava20.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava21.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava22.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava23.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava24.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava25_u.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava26.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava27.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava28.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava29.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_0b.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_11.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_12.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_13.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_14.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_15.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_16.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_17.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_18.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_19.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_4r.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_5d.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_5d_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_5l.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_5l_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_b0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_b1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_b2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_b3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava30_b4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava31.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava32.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava33.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava34.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava35.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava36.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava37.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_11.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_5u.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_6_r0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_6_r1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_7_r0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_7_r1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava38_9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava39.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava40.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava41.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava42.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava43.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava44.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava45.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava46.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava47.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava48.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_10.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_11.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_12.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_13.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_14.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_4.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_6l_0.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_6l_1.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_6l_2.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_6l_3.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava49_9.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava5.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava50.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava51.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava52.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava53.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava54.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava55.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava56.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava57.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava58.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava59.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava6.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava60.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava61.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava62.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava7.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava8.cs" />
+     <Compile Include="Assets\Scripts\box lava scripts\lava9.cs" />
+     <Compile Include="Assets\Scripts\cava mission\destroy_wall.cs" />
+     <Compile Include="Assets\Scripts\cava mission\tntScript.cs" />
+     <Compile Include="Assets\Scripts\cava mission\tnt_lightScript.cs" />
+     <Compile Include="Assets\Scripts\cava mission\withoutTNTScript.cs" />
+     <Compile Include="Assets\Scripts\deathScript.cs" />
+     <Compile Include="Assets\Scripts\fade_in.cs" />
+     <Compile Include="Assets\Scripts\game_timer.cs" />
+     <Compile Include="Assets\Scripts\music scripts\cave_music.cs" />
+     <Compile Include="Assets\Scripts\music scripts\level_music_loop.cs" />
+     <Compile Include="Assets\Scripts\offsetlava.cs" />
+     <Compile Include="Assets\Scripts\transferScripts\caveTransfer.cs" />
+     <Compile Include="Assets\Scripts\transferScripts\forestTransfer.cs" />
+     <Compile Include="Assets\Scripts\transferScripts\fortressTransfer.cs" />
+     <Compile Include="Assets\Scripts\transferScripts\lavaTransfer.cs" />
+     <Compile Include="Assets\Scripts\transferScripts\plainsTransfer.cs" />
+     <None Include="Assets\Texture Packs\Forest Grounds - Terrain Texture Pack\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
